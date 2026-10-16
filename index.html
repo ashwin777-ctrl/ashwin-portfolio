@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashwin Chandrasekar | Portfolio - Computer Science Engineering Student</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Personal portfolio of Ashwin Chandrasekar, B.Tech Computer Science Engineering student at SRMIST Vadapalani (Class of 2027). Full Stack Developer, Software Engineer, and AI/ML enthusiast.">
+  <meta name="keywords" content="Ashwin Chandrasekar, Portfolio, Computer Science, SRMIST, Software Engineer, Full Stack Developer, React, Python, Machine Learning">
+  <meta name="author" content="Ashwin Chandrasekar">
+
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ashwin Chandrasekar | Software Engineer & CSE Student">
+  <meta property="og:description" content="Explore projects, technical skills, and research by Ashwin Chandrasekar, CSE undergraduate at SRMIST Vadapalani.">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Navigation Bar -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Ashwin Chandrasekar Home">
+        <span class="logo-badge">AC</span>
+        <span class="logo-text">Ashwin Chandrasekar</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#research" class="nav-link">Research</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle color theme" title="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Home Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>B.Tech CSE Undergraduate &bull; SRMIST Vadapalani '27</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-navy-gradient">Ashwin Chandrasekar</span>
+          </h1>
+
+          <p class="hero-headline">
+            Computer Science Engineering Student &bull; Software Engineer &bull; Full Stack Developer
+          </p>
+
+          <p class="hero-description">
+            Passionate about architecting practical, reliable software applications and exploring web technologies, database design, and applied Artificial Intelligence &amp; Machine Learning. Always driven by learning through hands-on development.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Quick Social Highlights -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <a href="https://github.com/ashwin777-ctrl" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="Ashwin Chandrasekar GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ashwin-c-871814288/" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="Ashwin Chandrasekar LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:ashwinchandrasekar655@gmail.com" class="social-chip" aria-label="Email Ashwin">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-avatar">
+              <div class="avatar-circle">
+                <span>AC</span>
+              </div>
+            </div>
+            <div class="profile-info">
+              <h2 class="profile-name">Ashwin Chandrasekar</h2>
+              <p class="profile-tagline">B.Tech CSE &bull; Class of 2027</p>
+              <div class="profile-institute">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                <span>SRMIST, Vadapalani Campus</span>
+              </div>
+            </div>
+            <div class="profile-badges">
+              <span class="badge">Full-Stack Dev</span>
+              <span class="badge">Machine Learning</span>
+              <span class="badge">Database Systems</span>
+            </div>
+            <div class="profile-footer">
+              <div class="verification-tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <span>Academic Task &bull; InAmigos Foundation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card">
+            <h3 class="about-card-title">Computer Science Engineering Student</h3>
+            <p class="paragraph">
+              I am an undergraduate student pursuing my <strong>B.Tech in Computer Science and Engineering</strong> at <strong>SRM Institute of Science and Technology (SRMIST), Vadapalani Campus</strong>, scheduled to graduate in <strong>2027</strong>.
+            </p>
+            <p class="paragraph">
+              My core academic and practical interests lie in <strong>software engineering, modern full-stack web development, database architecture</strong>, and <strong>practical Artificial Intelligence &amp; Machine Learning solutions</strong>. I enjoy turning real-world problems into well-structured, maintainable, and user-centric software tools.
+            </p>
+            <p class="paragraph">
+              Whether building FinTech analytics tools, automated revenue recovery platforms, or intelligent notification filters, I focus on clean code, practical system architecture, and continuous learning.
+            </p>
+
+            <div class="quick-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Current Program</h4>
+                  <p class="highlight-desc">B.Tech Computer Science Engineering</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Institution</h4>
+                  <p class="highlight-desc">SRMIST, Vadapalani Campus, Chennai</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Graduation Year</h4>
+                  <p class="highlight-desc">Class of 2027</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Core Domains</h4>
+                  <p class="highlight-desc">Full-Stack, FinTech Systems &amp; Applied AI</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="academic-card">
+            <div class="academic-badge">Academic Snapshot</div>
+            <h3 class="academic-title">Education &amp; Foundation</h3>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">2023 &ndash; 2027</span>
+                  <h4 class="timeline-role">B.Tech in Computer Science and Engineering</h4>
+                  <p class="timeline-org">SRM Institute of Science and Technology, Vadapalani</p>
+                  <p class="timeline-notes">Focused on core CS fundamentals: Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, and Software Engineering methodologies.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="academic-values">
+              <div class="value-box">
+                <span class="value-num">4+</span>
+                <span class="value-text">Core Featured Projects</span>
+              </div>
+              <div class="value-box">
+                <span class="value-num">2027</span>
+                <span class="value-text">Expected Graduation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <div class="section-line"></div>
+          <p class="section-desc">Technologies and tools I actively practice and employ across software development and academic projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-category-title">Programming Languages</h3>
+            </div>
+            <p class="skill-category-desc">Core languages used for problem solving, backend systems, and application scripting.</p>
+            <div class="tags-container">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" x2="22" y1="12" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h3 class="skill-category-title">Web Development</h3>
+            </div>
+            <p class="skill-category-desc">Modern frontend libraries and server runtimes for scalable web architectures.</p>
+            <div class="tags-container">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express.js</span>
+              <span class="tech-tag">Responsive Design</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3 class="skill-category-title">Databases &amp; Storage</h3>
+            </div>
+            <p class="skill-category-desc">Relational and document databases for data integrity and high performance storage.</p>
+            <div class="tags-container">
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Schema Design</span>
+            </div>
+          </div>
+
+          <!-- Tools and Technologies -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="skill-category-title">Tools &amp; Technologies</h3>
+            </div>
+            <p class="skill-category-desc">Developer workflow tooling, ORMs, and standardized API protocols.</p>
+            <div class="tags-container">
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">GitHub</span>
+              <span class="tech-tag">Prisma ORM</span>
+              <span class="tech-tag">REST APIs</span>
+              <span class="tech-tag">Postman</span>
+            </div>
+          </div>
+
+          <!-- Additional Interest: Machine Learning & AI -->
+          <div class="skill-card skill-card-featured">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+              </div>
+              <h3 class="skill-category-title">Additional Specialization: AI &amp; Machine Learning</h3>
+            </div>
+            <p class="skill-category-desc">Applying intelligent models to solve practical automation, classification, and analytics challenges.</p>
+            <div class="tags-container">
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Email Classification</span>
+              <span class="tech-tag">Spam Detection Models</span>
+              <span class="tech-tag">Data Preprocessing</span>
+              <span class="tech-tag">Model Evaluation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-desc">Practical software engineering projects tackling FinTech, AI revenue workflows, business intelligence, and smart systems.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Subscription Trimmer -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-badge">FinTech &bull; Analytics</div>
+              <a href="https://github.com/ashwin777-ctrl/Subscription-Trimmer-" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="Subscription Trimmer GitHub Repository">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>Code</span>
+              </a>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Subscription Trimmer</h3>
+              <p class="project-desc">
+                A FinTech application designed for detecting recurring subscriptions, tracking monthly overhead, and analyzing personal spending behaviors to prevent unwanted automated renewals.
+              </p>
+              
+              <div class="project-features">
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Recurring transaction detection &amp; spending analytics</span>
+                </div>
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Clean breakdown of monthly and annual subscription costs</span>
+                </div>
+              </div>
+
+              <div class="project-stack">
+                <span class="stack-tag">Full-Stack</span>
+                <span class="stack-tag">FinTech</span>
+                <span class="stack-tag">JavaScript</span>
+                <span class="stack-tag">Database</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/ashwin777-ctrl/Subscription-Trimmer-" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <span>View on GitHub</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Recura – AI Revenue Recovery -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-badge">AI &bull; Workflow Automation</div>
+              <a href="https://github.com/ashwin777-ctrl/recura" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="Recura AI Revenue Recovery GitHub Repository">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>Code</span>
+              </a>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Recura &ndash; AI Revenue Recovery</h3>
+              <p class="project-desc">
+                An intelligent platform built for analyzing failed recurring payments, identifying churn patterns, and orchestrating targeted recovery workflows for digital businesses.
+              </p>
+              
+              <div class="project-features">
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Failed transaction diagnosis and classification</span>
+                </div>
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Automated recovery pipeline to reduce revenue loss</span>
+                </div>
+              </div>
+
+              <div class="project-stack">
+                <span class="stack-tag">AI Workflows</span>
+                <span class="stack-tag">Next.js / Node.js</span>
+                <span class="stack-tag">PostgreSQL</span>
+                <span class="stack-tag">REST APIs</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/ashwin777-ctrl/recura" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <span>View on GitHub</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: DataFusion BI -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-badge">Data &bull; Business Intelligence</div>
+              <a href="https://github.com/ashwin777-ctrl/DataFusion-BI" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="DataFusion BI GitHub Repository">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>Code</span>
+              </a>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">DataFusion BI</h3>
+              <p class="project-desc">
+                A modern business intelligence and analytics dashboard platform designed for multi-source data ingestion, metrics visualization, and reporting insights.
+              </p>
+              
+              <div class="project-features">
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Interactive charts and metrics aggregation</span>
+                </div>
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Customizable reporting and relational data views</span>
+                </div>
+              </div>
+
+              <div class="project-stack">
+                <span class="stack-tag">React.js</span>
+                <span class="stack-tag">Data Visualization</span>
+                <span class="stack-tag">SQL</span>
+                <span class="stack-tag">Node.js</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/ashwin777-ctrl/DataFusion-BI" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <span>View on GitHub</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: AI Smart Email Priority -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-badge">Machine Learning &bull; NLP</div>
+              <a href="https://github.com/ashwin777-ctrl/AI-Based-Smart-Email-Priority-and-Notification-System" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="AI-Based Smart Email Priority GitHub Repository">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>Code</span>
+              </a>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">AI-Based Smart Email Priority &amp; Notification System</h3>
+              <p class="project-desc">
+                A machine learning system engineered for automated email categorization, spam filtering, and importance scoring to deliver timely, context-aware notifications.
+              </p>
+              
+              <div class="project-features">
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Intelligent priority classification using ML algorithms</span>
+                </div>
+                <div class="feature-bullet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Spam suppression &amp; smart alert thresholding</span>
+                </div>
+              </div>
+
+              <div class="project-stack">
+                <span class="stack-tag">Python</span>
+                <span class="stack-tag">Machine Learning</span>
+                <span class="stack-tag">NLP</span>
+                <span class="stack-tag">Classification</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/ashwin777-ctrl/AI-Based-Smart-Email-Priority-and-Notification-System" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <span>View on GitHub</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements & Research Section -->
+    <section class="section research-section" id="research">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Inquiries</span>
+          <h2 class="section-title">Research &amp; Focus Areas</h2>
+          <div class="section-line"></div>
+          <p class="section-desc">Practical academic explorations into machine learning pipelines and real-time notification optimization.</p>
+        </div>
+
+        <div class="research-grid">
+          <div class="research-card">
+            <div class="research-badge-row">
+              <span class="research-badge">Research Focus</span>
+              <span class="research-status">Undergraduate Study</span>
+            </div>
+            <h3 class="research-title">Machine Learning in Email Priority Classification &amp; Notification Optimization</h3>
+            <p class="paragraph">
+              Investigating the application of supervised learning and Natural Language Processing (NLP) techniques to identify email urgency, minimize notification fatigue, and accurately segregate transactional, promotional, and urgent communications.
+            </p>
+            <div class="research-highlights">
+              <div class="r-point">
+                <strong>Methodology:</strong> Feature extraction from email metadata, semantic body parsing, and classification models.
+              </div>
+              <div class="r-point">
+                <strong>Outcome:</strong> Implemented practical prototyping in the AI-Based Smart Email Priority and Notification System.
+              </div>
+              <div class="r-point">
+                <strong>Documentation:</strong> Open-source project codebase documented and published on GitHub.
+              </div>
+            </div>
+          </div>
+
+          <div class="academic-note-card">
+            <div class="note-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h4 class="note-title">Academic Transparency</h4>
+            <p class="note-text">
+              As an undergraduate student at SRMIST Vadapalani, all published projects reflect verified, real implementations authored by Ashwin Chandrasekar. Research efforts are actively maintained through reproducible open-source code repositories.
+            </p>
+            <div class="note-affiliation">
+              <span>SRMIST Vadapalani Campus &bull; Dept. of Computer Science &amp; Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact Ashwin</h2>
+          <div class="section-line"></div>
+          <p class="section-desc">Feel free to reach out for software collaborations, academic discussions, or developer opportunities.</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Let's Connect</h3>
+            <p class="contact-panel-desc">
+              I am always keen to discuss software engineering, full-stack development, and emerging AI technologies. You can contact me directly via email or reach out on LinkedIn.
+            </p>
+
+            <div class="contact-methods">
+              <!-- Direct Email Link -->
+              <a href="mailto:ashwinchandrasekar655@gmail.com" class="contact-method-card">
+                <div class="method-icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-title">Email Address</span>
+                  <span class="method-value">ashwinchandrasekar655@gmail.com</span>
+                </div>
+                <div class="method-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </div>
+              </a>
+
+              <!-- GitHub Profile -->
+              <a href="https://github.com/ashwin777-ctrl" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                <div class="method-icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-title">GitHub Profile</span>
+                  <span class="method-value">github.com/ashwin777-ctrl</span>
+                </div>
+                <div class="method-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+                </div>
+              </a>
+
+              <!-- LinkedIn Profile -->
+              <a href="https://www.linkedin.com/in/ashwin-c-871814288/" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                <div class="method-icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-title">LinkedIn Profile</span>
+                  <span class="method-value">linkedin.com/in/ashwin-c-871814288</span>
+                </div>
+                <div class="method-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+                </div>
+              </a>
+            </div>
+
+            <div class="copy-email-box">
+              <span class="copy-label">Quick Copy:</span>
+              <button id="copy-email-btn" class="copy-btn" title="Click to copy email address">
+                <span id="copy-text">ashwinchandrasekar655@gmail.com</span>
+                <span id="copy-status" class="copy-status-tag">Copy</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Message Form (mailto generator) -->
+          <div class="contact-form-panel">
+            <h3 class="contact-panel-title">Send a Quick Note</h3>
+            <p class="contact-panel-desc">Opens your email client directly with a formatted draft to Ashwin.</p>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="sender-name">Your Name</label>
+                <input type="text" id="sender-name" name="name" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject">Subject</label>
+                <input type="text" id="sender-subject" name="subject" placeholder="Inquiry / Portfolio Feedback / Project" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message">Message</label>
+                <textarea id="sender-message" name="message" rows="4" placeholder="Hello Ashwin, I came across your portfolio..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send via Email Client</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <span class="logo-badge">AC</span>
+          <span class="footer-name">Ashwin Chandrasekar</span>
+        </div>
+        <p class="footer-subtext">B.Tech Computer Science Engineering &bull; SRMIST Vadapalani (Class of 2027)</p>
+        <p class="footer-tag">Personal Portfolio for Academic Task &bull; InAmigos Foundation</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="current-year">2026</span> Ashwin Chandrasekar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
